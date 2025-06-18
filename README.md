@@ -1,1 +1,1 @@
-# Universites-de-Madagascar
+# Universites
