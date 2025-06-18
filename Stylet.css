@@ -1,7 +1,6 @@
 body{
   background-color: black;
   color: white;
-padding-top: 150px;
 padding-bottom: 50px; /* Pour que le contenu ne passe pas sous le footer */
 }
 
