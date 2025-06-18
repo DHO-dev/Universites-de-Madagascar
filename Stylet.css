@@ -7,9 +7,6 @@ padding-bottom: 50px; /* Pour que le contenu ne passe pas sous le footer */
 header{
   color: White;
   text-align: center;
-top: 0;
-left: 0;
-width: 100%;
 }
 
 h3{
