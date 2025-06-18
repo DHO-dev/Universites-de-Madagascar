@@ -126,7 +126,86 @@
 <p>L’UNA est un établissement régional structuré autour de plusieurs écoles et facultés couvrant les sciences, l’ingénierie, les sciences humaines, le droit, l’économie, la médecine et la gestion. Elle développe des projets innovants comme la formation hybride et dispose d’un soutien numérique via l’AUF.</p>
   
 </section>
-  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <style>
+    /* Style du bouton */
+    .menu-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      background: none;
+      border-radius: 5px;
+      color: #333;
+      cursor: pointer;
+    }
+
+    /* Menu caché au début */
+    .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      padding: 10px;
+      border-radius: 10px;
+      z-index: 1000;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .menu a:hover {
+      background-color: #f0f0f0;
+    }
+ nav p1{
+   color: cyan;
+ }
+ div p1{
+   color: white;
+   font-family: Times New Roman;
+   margin-left: 0px;
+ }
+ nav p1{
+   color: black;
+   margin-left: 8px;
+ }
+ 
+    </style>
+    
+    
+    <body>
+    <!-- Bouton menu -->
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  <!-- Boîte de menu -->
+  <div class="menu" id="menu">
+    <nav>
+  <a href="Acceuil.html" target="_blank">-Accueil</a>
+    <p1>-Catégorie de l'université</p1>
+    <a href="Public.html" target="_blank">⚜️Public</a>
+    <a href="Privé.html" target="_blank">⚜️Privé</a>
+    <a href="MacFiles.html">-MacFiles</a>
+    </nav>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    }
+  </script>
+    </body>
   
   
   <footer>
