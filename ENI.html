@@ -1,16 +1,16 @@
 <!DOCTYPE html>
   <html lang="fr">
-  
+
   <body>
     <link rel="stylesheet" href="Stylet.css">
   </body> 
-  
+
  <head>
     <link rel="stylesheet" href="Style.Css">
     <meta charset="UTF-8">
   <title>ENI</title>
   </head>
-  
+
   <header>
 <h1> ENI - ECOLE NATIONALE D'INFORMATIQUE</h1>
 </header>
@@ -30,11 +30,11 @@
     font-size: 18px;
   }
   h4{
-    color: blue;
+    color: #f62ce6;
     font-size: 20px;
   }
   p{
-    margin-left: 30px;
+    margin-left: 10px;
   }
   p3{
     font-size: 18px;
@@ -48,12 +48,137 @@
   }
 
 </style>
+
+<section>
+  <h4>Généralités et nature de l'établissement</h4>
+<p><b>Nom complet :</b> École Nationale d’Informatique (ENI)</p>
+<p><b>Type :</b> Établissement public d’enseignement supérieur rattaché à l’Université de Fianarantsoa</p>
+<p><b>Année de création :</b> 1983 (par décret n°83-185 du 24 mai 1983)</p>
+<p><b>Localisation :</b> Tanambao-Antaninarenina, BP 1487 – 301 Fianarantsoa, Madagascar</p>
+
+<h4>Formations et diplômes</h4>
+<p><b>Niveaux :</b> Licence Professionnelle, Master Professionnel, Doctorat</p>
+<p><b>Mentions disponibles :</b> Informatique générale, Génie logiciel et bases de données, Administration des systèmes et réseaux</p>
+<p><b>Nouveautés :</b> Intelligence artificielle, Objets connectés et cybersécurité, Expertise digitale (à distance)</p>
+<p><b>Spécificités :</b> Formation orientée vers les métiers de l’informatique et du numérique avec stages obligatoires chaque année</p>
+
+<h4>Objectifs et missions</h4>
+<p><b>Objectif principal :</b> Former des informaticiens qualifiés capables de s’intégrer rapidement dans le monde professionnel</p>
+<p><b>Approche pédagogique :</b> Cours théoriques + mise en pratique avec partenariats en entreprise</p>
+<p><b>Réseau :</b> Plus de 300 entreprises partenaires pour stages et insertion professionnelle</p>
+
+<h4>Encadrement et organisation</h4>
+<p><b>Directeur :</b> Pr. Thomas Mahatody</p>
+<p><b>Enseignants :</b> Docteurs, Maîtres de conférences, formateurs spécialisés</p>
+<p><b>Effectif :</b> Plusieurs centaines d’étudiants, dont des étudiants à distance dans les mentions numériques</p>
+
+<h4>Infrastructure</h4>
+<p><b>Équipements :</b> Salles informatiques modernes, serveurs, laboratoires, amphithéâtres, connexion internet</p>
+<p><b>Cadre :</b> Campus en centre-ville de Fianarantsoa, accessible et bien desservi</p>
+
+<h4>Coordonnées</h4>
+<p><b>Adresse :</b> Tanambao-Antaninarenina, BP 1487 – Fianarantsoa</p>
+<p><b>Téléphone :</b> +261 34 05 733 36 / +261 32 15 204 28</p>
+<p><b>Email :</b> eni@eni.mg</p>
+<p><b>Site web :</b> <a href="https://eni.mg">www.eni.mg</a></p>
+
+<h4>Pourquoi choisir l’ENI ?</h4>
+<p>Institution pionnière dans la formation en informatique à Madagascar, l’ENI est reconnue pour la qualité de son enseignement, l’innovation dans ses mentions, et ses liens solides avec le monde professionnel. Elle forme les futurs leaders du numérique à Madagascar et en Afrique.</p>
   
   
   
   
   
   
+  
+  
+</section>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <style>
+    /* Style du bouton */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      background: none;
+      border-radius: 5px;
+      color: #333;
+      cursor: pointer;
+    }
+
+    /* Menu caché au début */
+    .menu {
+      display: none;
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      padding: 10px;
+      border-radius: 10px;
+      z-index: 1000;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .menu a:hover {
+      background-color: #f0f0f0;
+    }
+ nav p1{
+   color: cyan;
+ }
+ div p1{
+   color: white;
+   font-family: Times New Roman;
+   margin-left: 0px;
+ }
+ nav p1{
+   color: black;
+   margin-left: 8px;
+ }
+ 
+    </style>
+    
+    <body>
+
+
+    <!-- Bouton menu -->
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  <!-- Boîte de menu -->
+  <div class="menu" id="menu">
+    <nav>
+    <a href="Index.html">-Accueil</a>
+    <p1>-Catégorie de l'université</p1>
+    <a href="Public.html">⚜️Public</a>
+    <a href="Privé.html">⚜️Privé</a>
+    <a href="ꭰꮋꮎ.⎠ꭰэѕк ꮋꮎꮅꭼ ꮎꭱꮐꭺꮑꮖꮪꭺꭲꮖꮎꮑ.html">-DHO.⎠Desk Hope Organisation</a>
+    </nav>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
+  
+    </body>
+
+
 <footer>
   &copy;DHO.⎠Desk Hope Organisation 2025– Inspirer. Guider. Réussir.
 </footer>
