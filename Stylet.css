@@ -2,6 +2,11 @@ body{
   background-color: black;
   color: white;
 padding-bottom: 50px; /* Pour que le contenu ne passe pas sous le footer */
+background-image: url(20.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 header{
